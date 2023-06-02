@@ -2,22 +2,22 @@
 {% assign image2 = section.settings.image2 | img_url: 'master' %}
 {% assign image3 = section.settings.image3 | img_url: 'master' %}
 
-<div class="background-section">
+<div class="background-section container">
   <div class="content">
-    <h2>{{ section.settings.heading1 }}</h2>
-    <h3>{{ section.settings.title1 }}</h3>
+    <p class="content-inner">{{ section.settings.heading1 }}</p>
+    <p class="content-inner-hover">{{ section.settings.title1 }}</p>
     <img src="{{ image1 }}" alt="Image 1">
   </div>
 
   <div class="content">
-    <h2>{{ section.settings.heading2 }}</h2>
-    <h3>{{ section.settings.title2 }}</h3>
+    <p class="content-inner"> {{ section.settings.heading2 }}</p>
+    <p class="content-inner-hover">{{ section.settings.title2 }}</p>
     <img src="{{ image2 }}" alt="Image 2">
   </div>
 
   <div class="content">
-    <h2>{{ section.settings.heading3 }}</h2>
-    <h3>{{ section.settings.title3 }}</h3>
+    <p class="content-inner">{{ section.settings.heading3 }}</p>
+    <p class="content-inner-hover">{{ section.settings.title3 }}</p>
     <img src="{{ image3 }}" alt="Image 3">
   </div>
 </div>
@@ -26,13 +26,16 @@
   .background-section {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     align-items: flex-start;
-  padding:20px 80px;
-  border-radius:5px;
+    border-radius: 5px;
+    margin-top: 20px;
   }
-  .content:hover{
-  box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.63);
+
+  .content:hover {
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.63);
   }
+
   .content::before {
     content: "";
     position: absolute;
@@ -40,141 +43,155 @@
     left: 0;
     width: 100%;
     height: 100%;
-     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
     opacity: 1;
     transition: opacity 0.6s ease-in-out;
   }
+
   .content {
     position: relative;
     overflow: hidden;
     text-align: center;
-  border-radius:5px;
+    border-radius: 5px;
+    animation: slideIn 1s ease;
   }
 
   .content img {
-  z-index:-1;
-  position:relative;
+    z-index: -1;
+    position: relative;
     width: 100%;
     height: auto;
-    transition: transform 2.9s ease-in-out;
+    transition: transform 1s ease-in-out;
   }
 
-  .content h2{
-      color: white;
-      font-weight: 800;
-      font-size: 28px;
-      /* line-height: 0.2rem; */
-      padding: 10px 25px;
-  position:absolute;
-  bottom:40px;}
-  .content h3 {
-      color: white;
-      font-weight: 800;
-      font-size: 28px;
-      /* line-height: 0.2rem; */
-      padding: 10px 25px;
+  .content p.content-inner {
+    color: white;
+    font-size: 22.8px;
+    line-height: 28px;
+    padding: 15px;
     position: absolute;
-    bottom: -40px;
+    bottom: 0;
+    transition: opacity .65s cubic-bezier(.05, .2, .1, 1), transform .65s cubic-bezier(.05, .2, .1, 1);
+    letter-spacing: -2px;
+  }
+
+  .content p.content-inner-hover {
+    color: white;
+    font-weight: normal;
+    font-size: 21px;
+    text-align: left;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
     left: 0;
     width: 100%;
     margin: 0;
-    padding: 0;
-    text-align: center;
+    margin-top: 10px;
     opacity: 0;
-    transition: bottom 1.2s ease-in-out, opacity 1.2s ease-in-out;
+    transition: opacity .18s cubic-bezier(.05, .2, .1, 1), transform .18s cubic-bezier(.05, .2, .1, 1);
+    transform: translateY(20px);
   }
 
   .content:hover img {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
-  .content:hover::before {
 
+  .content:hover::before {
     opacity: 0;
   }
 
 
-  .content:hover h3 {
-    bottom: 20px;
-    opacity: 120;
+  .content:hover p.content-inner {
+    transform: translateY(-75px);
+    opacity: 1;
   }
-  @media screen and (max-width: 1024px) {
-  .background-section{
-     flex-direction:column;
-  align-items:center;
 
+  .content:hover p.content-inner-hover {
+    opacity: 1;
+    transform: translateY(-10px);
+    transition: opacity .65s cubic-bezier(.05, .2, .1, 1) .15s, transform .65s cubic-bezier(.05, .2, .1, 1) .15s;
   }
-  .content{
-  margin-top:20px;}
+
+  @media screen and (max-width: 1024px) {
+    .background-section {
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    .content {
+      margin-top: 20px;
+    }
   }
 </style>
 
 {% schema %}
 {
-  "name": "three-column-section",
-  "settings": [
-    {
-      "type": "image_picker",
-      "id": "image1",
-      "label": "Image 1"
-    },
-    {
-      "type": "text",
-      "id": "heading1",
-      "label": "Heading 1"
-    },
-    {
-      "type": "text",
-      "id": "title1",
-      "label": "Title 1"
-    },
-    {
-      "type": "image_picker",
-      "id": "image2",
-      "label": "Image 2"
-    },
-    {
-      "type": "text",
-      "id": "heading2",
-      "label": "Heading 2"
-    },
-    {
-      "type": "text",
-      "id": "title2",
-      "label": "Title 2"
-    },
-    {
-      "type": "image_picker",
-      "id": "image3",
-      "label": "Image 3"
-    },
-    {
-      "type": "text",
-      "id": "heading3",
-      "label": "Heading 3"
-    },
-    {
-      "type": "text",
-      "id": "title3",
-      "label": "Title 3"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Three-column-section",
-      "category": "Custom",
-      "settings": {
+"name": "three-column-section",
+"settings": [
+{
+"type": "image_picker",
+"id": "image1",
+"label": "Image 1"
+},
+{
+"type": "text",
+"id": "heading1",
+"label": "Heading 1"
+},
+{
+"type": "text",
+"id": "title1",
+"label": "Title 1"
+},
+{
+"type": "image_picker",
+"id": "image2",
+"label": "Image 2"
+},
+{
+"type": "text",
+"id": "heading2",
+"label": "Heading 2"
+},
+{
+"type": "text",
+"id": "title2",
+"label": "Title 2"
+},
+{
+"type": "image_picker",
+"id": "image3",
+"label": "Image 3"
+},
+{
+"type": "text",
+"id": "heading3",
+"label": "Heading 3"
+},
+{
+"type": "text",
+"id": "title3",
+"label": "Title 3"
+}
+],
+"presets": [
+{
+"name": "Three-column-section",
+"category": "Custom",
+"settings": {
 
-        "heading1": "Heading 1",
-        "title1": "Title 1",
+"heading1": "Heading 1",
+"title1": "Title 1",
 
-        "heading2": "Heading 2",
-        "title2": "Title 2",
+"heading2": "Heading 2",
+"title2": "Title 2",
 
-        "heading3": "Heading 3",
-        "title3": "Title 3"
-      }
-    }
-  ]
+"heading3": "Heading 3",
+"title3": "Title 3"
+}
+}
+]
 }
 {% endschema %}
 

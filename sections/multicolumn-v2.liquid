@@ -1,0 +1,149 @@
+{% schema %}
+{
+  "name": "Text Block",
+  "settings": [
+    {
+      "type": "text",
+      "label": "comment",
+      "id": "comment",
+      "default": "Enter your comment here"
+    },
+    {
+      "type": "text",
+      "label": "name",
+      "id": "name",
+      "default": "Enter your name here"
+    },
+  {
+      "type": "text",
+      "label": "customer",
+      "id": "customer",
+      "default": "customer"
+    }
+, {
+      "type": "text",
+      "label": "comment",
+      "id": "comment2",
+      "default": "Enter your comment here"
+    },
+    {
+      "type": "text",
+      "label": "name",
+      "id": "name2",
+      "default": "Enter your name here"
+    },
+  {
+      "type": "text",
+      "label": "customer",
+      "id": "customer2",
+      "default": "customer"
+    }
+,{
+      "type": "text",
+      "label": "comment",
+      "id": "comment3",
+      "default": "Enter your comment here"
+    },
+    {
+      "type": "text",
+      "label": "name",
+      "id": "name3",
+      "default": "Enter your name here"
+    },
+  {
+      "type": "text",
+      "label": "customer",
+      "id": "customer3",
+      "default": "customer"
+    },{
+      "type": "text",
+      "label": "comment",
+      "id": "comment4",
+      "default": "Enter your comment here"
+    },
+    {
+      "type": "text",
+      "label": "name",
+      "id": "name4",
+      "default": "Enter your name here"
+    },
+  {
+      "type": "text",
+      "label": "customer",
+      "id": "customer4",
+      "default": "customer"
+    }
+
+
+  ],
+ "presets": [
+    {
+      "name": "Three-column-section-2",
+      "category": "Custom",
+      "settings": {
+
+
+      }
+    }
+  ]
+}
+{% endschema %}
+<div class="all-wrapper">
+  <div class="wrapper">
+    <div class="wrapper-body">
+      <div class="text-block">
+        <h2>{{ section.settings.comment }}</h2>
+        <p>{{ section.settings.name }}</p>
+        <p>{{ section.settings.customer }}</p>
+      </div>
+      <div class="text-block">
+        <h2>{{ section.settings.comment2 }}</h2>
+        <p>{{ section.settings.name2 }}</p>
+        <p>{{ section.settings.customer2 }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="wrapper-body">
+      <div class="text-block">
+        <h2>{{ section.settings.comment3 }}</h2>
+        <p>{{ section.settings.name3 }}</p>
+        <p>{{ section.settings.customer3 }}</p>
+      </div>
+      <div class="text-block">
+        <h2>{{ section.settings.comment4 }}</h2>
+        <p>{{ section.settings.name4 }}</p>
+        <p>{{ section.settings.customer4 }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .all-wrapper{
+  margin-top:100px;}
+
+  .wrapper{
+
+  background: #94d0b2;
+      padding: 20px;}
+  .wrapper-body{
+  display: flex;
+      justify-content: space-around;
+  }
+  .text-block h2{
+   color: #174f59;
+  font-size:30px;
+      font-style: italic;
+  }
+  .text-block{
+  text-align: center;
+      max-width: 400px;
+      color: #174f59;
+      font-style: italic;}
+  @media screen and (max-width: 1024px) {
+  .wrapper-body{
+  flex-direction:column !important;
+  align-items:center;
+  justify-content:center;}
+  }
+</style>

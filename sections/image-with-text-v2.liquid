@@ -1,0 +1,81 @@
+{{ 'component-image-with-text-v2.css' | asset_url | stylesheet_tag }}
+
+<div class="image-text-section">
+  {% if section.settings.image_position == 'left' %}
+    <div class="image-wrapper">
+      {% if section.settings.section_image %}
+        <img src="{{ section.settings.section_image | img_url: 'master' }}" alt="Section Image">
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="text-wrapper">
+    {% if section.settings.section_text %}
+      <h2>
+        <span class="text-outline">{{ section.settings.section_text3 }}</span>
+        {{ section.settings.section_text }}
+      </h2>
+      <h5>{{ section.settings.section_text2 }}</h5>
+      <button>Learn More</button>
+    {% endif %}
+  </div>
+
+  {% if section.settings.image_position == 'right' %}
+    <div class="image-wrapper">
+      {% if section.settings.section_image %}
+        <img src="{{ section.settings.section_image | img_url: 'master' }}" alt="Section Image">
+      {% endif %}
+    </div>
+  {% endif %}
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Image with Text Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "section_image",
+        "label": "Section Image"
+      },
+      {
+        "type": "text",
+        "id": "section_text",
+        "label": "Section Text"
+      },
+      {
+        "type": "text",
+        "id": "section_text2",
+        "label": "Section Text"
+      },
+      {
+        "type": "text",
+        "id": "section_text3",
+        "label": "Section Text"
+      }, {
+        "type": "radio",
+        "id": "image_position",
+        "label": "Image Position",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          }, {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "category": "Custom",
+        "name": "Image and Text Section",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

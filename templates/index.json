@@ -1,0 +1,298 @@
+{
+  "sections": {
+    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Generated test data",
+            "heading_size": "h1"
+          }
+        },
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1": {
+          "type": "text",
+          "settings": {
+            "text": "A theme and populated test store by Shopify to help you test commerce primitives.",
+            "text_style": "body"
+          }
+        },
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop products",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0",
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1",
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "<strong>Featured products<\/strong>",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "automated-collection",
+        "products_to_show": 10,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "38cdf60f-e431-43b5-aac3-7e6215447d67": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hydrogen"
+          }
+        },
+        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "automated-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0",
+        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1"
+      ],
+      "settings": {
+        "title": "<strong>Collections<\/strong>",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f8085d3c-d51a-4b44-a005-27aa9b8f3363": {
+      "type": "flickity-slider",
+      "blocks": {
+        "c995e472-9c42-4564-a56b-906423f7beb3": {
+          "type": "column",
+          "settings": {
+            "blockquote": "“I have been taking this wonderful sipping vinegar for the past 3 years. I chose the Ginger & Lemongrass to help with my digestive system and for the anti-inflammitory qualities. I have been amazed with the results. I hate going a day without my morning ritual of Moringa Vinga!”",
+            "blockquoteImage": "shopify:\/\/shop_images\/svgexport-15.png",
+            "authorName": "Author Name Here",
+            "authorDesignation": "Author Designation"
+          }
+        },
+        "3169969a-4101-4f26-b98b-cc1b16935252": {
+          "type": "column",
+          "settings": {
+            "blockquote": "“I have been taking this wonderful sipping vinegar for the past 3 years. I chose the Ginger &amp; Lemongrass to help with my digestive system and for the anti-inflammitory qualities. I have been amazed with the results. I hate going a day without my morning ritual of Moringa Vinga!”",
+            "blockquoteImage": "shopify:\/\/shop_images\/svgexport-13.png",
+            "authorName": "Author Name Here",
+            "authorDesignation": "Author Designation"
+          }
+        },
+        "c12578cc-a86c-4dbc-aadb-b4e36cfa52a8": {
+          "type": "column",
+          "settings": {
+            "blockquote": "“I have been taking this wonderful sipping vinegar for the past 3 years. I chose the Ginger &amp; Lemongrass to help with my digestive system and for the anti-inflammitory qualities. I have been amazed with the results. I hate going a day without my morning ritual of Moringa Vinga!”",
+            "blockquoteImage": "shopify:\/\/shop_images\/svgexport-12.png",
+            "authorName": "Author Name Here",
+            "authorDesignation": "Author Designation"
+          }
+        }
+      },
+      "block_order": [
+        "c995e472-9c42-4564-a56b-906423f7beb3",
+        "3169969a-4101-4f26-b98b-cc1b16935252",
+        "c12578cc-a86c-4dbc-aadb-b4e36cfa52a8"
+      ],
+      "settings": {
+        "fixedHeading": "Functional Ingredients You Can Feel",
+        "fixedDescription": "Moringa oleifera is said to offer over 300 medicinal benefits. We combine adaptogens like moringa with powerful superfoods to bring you a convenient and easy way to take your health and wellness to the next level.",
+        "fixedButtonText": "View all Testimonials",
+        "FixedButtonlink": "#"
+      }
+    },
+    "e7cf5fa0-41d8-47ff-b622-4b75bf2c4246": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/svgexport-12.png",
+            "title": "100% Pure",
+            "text": "<p>Raw, living, and nutrient dense organic concentrates are slowly and carefully crafted.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/svgexport-13.png",
+            "title": "Never  Heated",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/svgexport-14.png",
+            "title": "No Additives or Powders",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "530c0234-dcf4-4d31-848e-44dedbdf70d8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/svgexport-12.png",
+            "title": "18 Month Shelf Life",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-0",
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-1",
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-2",
+        "530c0234-dcf4-4d31-848e-44dedbdf70d8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f3c32bea-fb65-4bee-a1c6-7ec5b75328f2": {
+      "type": "image-with-text-v2",
+      "settings": {
+        "section_image": "shopify:\/\/shop_images\/Moringa-Vinga_Infographic-HOW-IT-WORKS.webp",
+        "section_text": "to Your Health!",
+        "section_text2": "Cheers to Your Health! Our infusions begin with pure Moringa, rich in over 92 nutrients, 18 amino acids and 46 antioxidants. Then we add the benefits of raw and unrefined apple cider vinegar, wild honey, and hand-selected herbs to create a powerful and delicious drink.",
+        "section_text3": "Cheers",
+        "image_position": "left"
+      }
+    },
+    "5b7eab90-c835-490e-911a-d879259b6c81": {
+      "type": "multicolumn-v1",
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/elderberry_home-copy.webp",
+        "heading1": "Elderberry & Holy Basil",
+        "title1": "Immunity | Calm | Breathe",
+        "image2": "shopify:\/\/shop_images\/elderberry_home-copy.webp",
+        "heading2": "Ginger & Lemongrass",
+        "title2": "Motion | Soothe | Digestion",
+        "image3": "shopify:\/\/shop_images\/spearmint_home.webp",
+        "heading3": "Spearmint & Rosemary",
+        "title3": "Mind | Renew | Circulation"
+      }
+    },
+    "9e7df806-3e57-44a9-9abd-89129224ea07": {
+      "type": "multicolumn-v2",
+      "settings": {
+        "comment": "“Moringa Vinga are the best sipping vinegars ever! This super duper healthy tonic is loaded with all the “good-for you” stuff and so much more.”",
+        "name": "Danielle",
+        "customer": "Customer",
+        "comment2": "“Moringa Vinga are the best sipping vinegars ever! This super duper healthy tonic is loaded with all the “good-for you” stuff and so much more.”",
+        "name2": "Danielle",
+        "customer2": "customer",
+        "comment3": "“Moringa Vinga are the best sipping vinegars ever! This super duper healthy tonic is loaded with all the “good-for you” stuff and so much more.”",
+        "name3": "Danielle",
+        "customer3": "customer",
+        "comment4": "“Moringa Vinga are the best sipping vinegars ever! This super duper healthy tonic is loaded with all the “good-for you” stuff and so much more.”",
+        "name4": "Danielle",
+        "customer4": "customer"
+      }
+    },
+    "e1594c78-ca6c-40da-8123-e44324600ce0": {
+      "type": "scroll-text",
+      "settings": {
+        "text": "plant-based \/ organic \/ raw",
+        "link": "",
+        "text_size": 22,
+        "line_height": 2,
+        "speed": 8.5,
+        "direction": "left",
+        "font": "heading",
+        "space_x": true,
+        "stencil_all_text": false,
+        "stencil_text": "",
+        "overlay_style_tint": false,
+        "color_scheme": "custom",
+        "color_bg": "#f4f4f4",
+        "color_text": "#184e5a"
+      }
+    }
+  },
+  "order": [
+    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
+    "featured_collection",
+    "38cdf60f-e431-43b5-aac3-7e6215447d67",
+    "f8085d3c-d51a-4b44-a005-27aa9b8f3363",
+    "e7cf5fa0-41d8-47ff-b622-4b75bf2c4246",
+    "f3c32bea-fb65-4bee-a1c6-7ec5b75328f2",
+    "5b7eab90-c835-490e-911a-d879259b6c81",
+    "9e7df806-3e57-44a9-9abd-89129224ea07",
+    "e1594c78-ca6c-40da-8123-e44324600ce0"
+  ]
+}

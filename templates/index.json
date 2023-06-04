@@ -1,153 +1,40 @@
 {
   "sections": {
-    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b": {
-      "type": "image-banner",
+    "39d9d1b8-22e4-475e-9dc8-ecc6bac4dfc6": {
+      "type": "testimonial-slider",
       "blocks": {
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0": {
-          "type": "heading",
+        "783f6e63-d298-43fb-876d-703bd6424508": {
+          "type": "column",
           "settings": {
-            "heading": "Generated test data",
-            "heading_size": "h1"
+            "blockquote": "“I drink this instead of coffee in the morning, and it takes down food cravings at night. Truly a delicious option anytime. Highly recommend.”",
+            "blockquoteImage": "shopify:\/\/shop_images\/Ray_Jackson.jpg",
+            "authorName": "Ray Jackson",
+            "authorDesignation": "Moringa Subscriber"
           }
         },
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1": {
-          "type": "text",
+        "30799128-6fac-4039-a916-a6ec2a39e02d": {
+          "type": "column",
           "settings": {
-            "text": "A theme and populated test store by Shopify to help you test commerce primitives.",
-            "text_style": "body"
+            "blockquote": "“I have been drinking a shot of it every morning for a year & the flavors are great! I've mixed it in cocktails and yogurt as well. And these days, who doesn't want an extra immunity boost!? Moringa Vinga has become a staple in my diet. Keep making great products!”",
+            "blockquoteImage": "shopify:\/\/shop_images\/Ray_Jackson.jpg",
+            "authorName": "Joycelyn May",
+            "authorDesignation": "Moringa Subscriber"
           }
         },
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop products",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0",
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1",
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "<strong>Featured products<\/strong>",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "automated-collection",
-        "products_to_show": 10,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "38cdf60f-e431-43b5-aac3-7e6215447d67": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hydrogen"
-          }
-        },
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "automated-collection"
-          }
-        }
-      },
-      "block_order": [
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0",
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1"
-      ],
-      "settings": {
-        "title": "<strong>Collections<\/strong>",
-        "heading_size": "h1",
-        "image_ratio": "portrait",
-        "columns_desktop": 2,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "f8085d3c-d51a-4b44-a005-27aa9b8f3363": {
-      "type": "flickity-slider",
-      "blocks": {
-        "c995e472-9c42-4564-a56b-906423f7beb3": {
+        "bf055410-4005-48b0-881c-6df0ddf5e80d": {
           "type": "column",
           "settings": {
             "blockquote": "“I have been taking this wonderful sipping vinegar for the past 3 years. I chose the Ginger & Lemongrass to help with my digestive system and for the anti-inflammitory qualities. I have been amazed with the results. I hate going a day without my morning ritual of Moringa Vinga!”",
-            "blockquoteImage": "shopify:\/\/shop_images\/svgexport-15.png",
-            "authorName": "Author Name Here",
-            "authorDesignation": "Author Designation"
-          }
-        },
-        "3169969a-4101-4f26-b98b-cc1b16935252": {
-          "type": "column",
-          "settings": {
-            "blockquote": "“I have been taking this wonderful sipping vinegar for the past 3 years. I chose the Ginger &amp; Lemongrass to help with my digestive system and for the anti-inflammitory qualities. I have been amazed with the results. I hate going a day without my morning ritual of Moringa Vinga!”",
-            "blockquoteImage": "shopify:\/\/shop_images\/svgexport-13.png",
-            "authorName": "Author Name Here",
-            "authorDesignation": "Author Designation"
-          }
-        },
-        "c12578cc-a86c-4dbc-aadb-b4e36cfa52a8": {
-          "type": "column",
-          "settings": {
-            "blockquote": "“I have been taking this wonderful sipping vinegar for the past 3 years. I chose the Ginger &amp; Lemongrass to help with my digestive system and for the anti-inflammitory qualities. I have been amazed with the results. I hate going a day without my morning ritual of Moringa Vinga!”",
-            "blockquoteImage": "shopify:\/\/shop_images\/svgexport-12.png",
-            "authorName": "Author Name Here",
-            "authorDesignation": "Author Designation"
+            "blockquoteImage": "shopify:\/\/shop_images\/Ray_Jackson.jpg",
+            "authorName": "Lori Kaye",
+            "authorDesignation": "Moringa Subscriber"
           }
         }
       },
       "block_order": [
-        "c995e472-9c42-4564-a56b-906423f7beb3",
-        "3169969a-4101-4f26-b98b-cc1b16935252",
-        "c12578cc-a86c-4dbc-aadb-b4e36cfa52a8"
+        "783f6e63-d298-43fb-876d-703bd6424508",
+        "30799128-6fac-4039-a916-a6ec2a39e02d",
+        "bf055410-4005-48b0-881c-6df0ddf5e80d"
       ],
       "settings": {
         "fixedHeading": "Functional Ingredients You Can Feel",
@@ -217,51 +104,180 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "f3c32bea-fb65-4bee-a1c6-7ec5b75328f2": {
-      "type": "image-with-text-v2",
-      "settings": {
-        "section_image": "shopify:\/\/shop_images\/Moringa-Vinga_Infographic-HOW-IT-WORKS.webp",
-        "section_text": "to Your Health!",
-        "section_text2": "Cheers to Your Health! Our infusions begin with pure Moringa, rich in over 92 nutrients, 18 amino acids and 46 antioxidants. Then we add the benefits of raw and unrefined apple cider vinegar, wild honey, and hand-selected herbs to create a powerful and delicious drink.",
-        "section_text3": "Cheers",
-        "image_position": "left"
-      }
-    },
     "5b7eab90-c835-490e-911a-d879259b6c81": {
       "type": "multicolumn-v1",
+      "blocks": {
+        "2e152549-5fb4-498c-aed1-55208433b5d5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elderberry_home-copy.webp",
+            "title": "Elderberry & Holy Basil",
+            "text": "<p>Immunity | Calm | Breathe<\/p>",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "6fbd8fb6-63b0-4425-8cbe-d23cedc760a3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ginger_home.webp",
+            "title": "Ginger & Lemongrass",
+            "text": "<p>Motion | Soothe | Digestion<\/p>",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "0097b567-160a-4273-9de2-c9a1aa4248f6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/spearmint_home.webp",
+            "title": "Spearmint & Rosemary",
+            "text": "<p>Mind | Renew | Circulation<\/p>",
+            "link_label": "",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "2e152549-5fb4-498c-aed1-55208433b5d5",
+        "6fbd8fb6-63b0-4425-8cbe-d23cedc760a3",
+        "0097b567-160a-4273-9de2-c9a1aa4248f6"
+      ],
       "settings": {
-        "image1": "shopify:\/\/shop_images\/elderberry_home-copy.webp",
-        "heading1": "Elderberry & Holy Basil",
-        "title1": "Immunity | Calm | Breathe",
-        "image2": "shopify:\/\/shop_images\/elderberry_home-copy.webp",
-        "heading2": "Ginger & Lemongrass",
-        "title2": "Motion | Soothe | Digestion",
-        "image3": "shopify:\/\/shop_images\/spearmint_home.webp",
-        "heading3": "Spearmint & Rosemary",
-        "title3": "Mind | Renew | Circulation"
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "70bdda25-666b-4c70-8f25-a2656b7b9740": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>The What<\/em>, Who, How, and Why",
+            "heading_size": "h2"
+          }
+        },
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Developed around the evidence that just one ounce a day can have a huge impact on multiple systems in the body. Each serving can be enjoyed daily with sparkling or still water for a functional tonic, mixed with olive oil for a super herb dressing, or used in any number of your own tasty creations.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-0",
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-1",
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Moringa-Vinga_Infographic-HOW-IT-WORKS.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "9e7df806-3e57-44a9-9abd-89129224ea07": {
       "type": "multicolumn-v2",
+      "blocks": {
+        "56ee9ae3-32d2-4a0a-bdc1-30279eb6be66": {
+          "type": "column",
+          "settings": {
+            "text": "<p>“Moringa Vinga are the best sipping vinegars ever! This super duper healthy tonic is loaded with all the “good-for you” stuff and so much more.” <\/p>",
+            "title": "Danielle",
+            "designation": "Customer",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "acce32bf-4bbc-4a59-8c0a-f131ce9a2121": {
+          "type": "column",
+          "settings": {
+            "text": "<p>“A pre mixed concentrate with the awesome addition of moringa! A Super food that is soooo good for our gut and overall nutrition!” <\/p>",
+            "title": "<em>Sara M.<\/em>",
+            "designation": "<em>Nutrition Coach and Trainer<\/em>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "942819ed-a713-46ba-a0b1-b543efb514fe": {
+          "type": "column",
+          "settings": {
+            "text": "<p><em>“This stuff is addicting in the best of ways! I love that something so good for you tastes so amazing. It’s part of my daily routine. I am a big fan!”<\/em><\/p>",
+            "title": "<em>Juli<\/em>",
+            "designation": "<em>Customer<\/em>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b3b0ca66-4fd2-4d2e-83f3-d4d5c26c7297": {
+          "type": "column",
+          "settings": {
+            "text": "<p><em>“To have something that’s so good for you taste this amazing is such an added bonus! Can’t wait to get my next order!”<\/em><\/p>",
+            "title": "<em>Brenda<\/em>",
+            "designation": "<em>Customer<\/em>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "56ee9ae3-32d2-4a0a-bdc1-30279eb6be66",
+        "acce32bf-4bbc-4a59-8c0a-f131ce9a2121",
+        "942819ed-a713-46ba-a0b1-b543efb514fe",
+        "b3b0ca66-4fd2-4d2e-83f3-d4d5c26c7297"
+      ],
       "settings": {
-        "comment": "“Moringa Vinga are the best sipping vinegars ever! This super duper healthy tonic is loaded with all the “good-for you” stuff and so much more.”",
-        "name": "Danielle",
-        "customer": "Customer",
-        "comment2": "“Moringa Vinga are the best sipping vinegars ever! This super duper healthy tonic is loaded with all the “good-for you” stuff and so much more.”",
-        "name2": "Danielle",
-        "customer2": "customer",
-        "comment3": "“Moringa Vinga are the best sipping vinegars ever! This super duper healthy tonic is loaded with all the “good-for you” stuff and so much more.”",
-        "name3": "Danielle",
-        "customer3": "customer",
-        "comment4": "“Moringa Vinga are the best sipping vinegars ever! This super duper healthy tonic is loaded with all the “good-for you” stuff and so much more.”",
-        "name4": "Danielle",
-        "customer4": "customer"
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "color_bg": "#94d0b2",
+        "color_text": "#174f59",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "e1594c78-ca6c-40da-8123-e44324600ce0": {
@@ -285,13 +301,10 @@
     }
   },
   "order": [
-    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
-    "featured_collection",
-    "38cdf60f-e431-43b5-aac3-7e6215447d67",
-    "f8085d3c-d51a-4b44-a005-27aa9b8f3363",
+    "39d9d1b8-22e4-475e-9dc8-ecc6bac4dfc6",
     "e7cf5fa0-41d8-47ff-b622-4b75bf2c4246",
-    "f3c32bea-fb65-4bee-a1c6-7ec5b75328f2",
     "5b7eab90-c835-490e-911a-d879259b6c81",
+    "70bdda25-666b-4c70-8f25-a2656b7b9740",
     "9e7df806-3e57-44a9-9abd-89129224ea07",
     "e1594c78-ca6c-40da-8123-e44324600ce0"
   ]

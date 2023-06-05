@@ -5,7 +5,6 @@ if (!customElements.get('product-form')) {
       super();
 
       this.form = this.querySelector('form');
-      console.log("this.form",this.form)
       this.form.querySelector('[name=id]').disabled = false;
       this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
       this.cart = document.querySelector('cart-notification') || document.querySelector('cart-drawer');

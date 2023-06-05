@@ -33,6 +33,8 @@
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'anime.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'product-form.js' | asset_url }}" defer="defer" type="module"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -273,11 +275,6 @@
     </ul>
 
     <script>
-      
-      
-      
-      
-      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -305,11 +302,6 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       };
-
-
-
-
-
     </script>
 
     {%- if settings.predictive_search_enabled -%}

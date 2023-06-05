@@ -370,6 +370,21 @@ cart-drawer-items {
 	  flex-basis: calc(50% - 0.5rem) !important;
   }
 }
+.drawer__upaell .drawer__upaell-inner{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.drawer__upaell .drawer__upaell-inner .product-media-container{
+  width: 35%;
+}
+.drawer__upaell .drawer__upaell-inner .drawer__upaell-inner-content {
+  width: 65%;
+}
+.drawer__upaell .drawer__upaell-inner .drawer__upaell-inner-content .price .price-item{
+  font-size: 1.4rem;
+}
 
 cart-drawer-items::-webkit-scrollbar {
   width: 3px;
@@ -383,3 +398,4 @@ cart-drawer-items::-webkit-scrollbar-thumb {
 cart-drawer-items::-webkit-scrollbar-track-piece {
   margin-top: 31px;
 }
+

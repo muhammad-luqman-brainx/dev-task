@@ -1,4 +1,3 @@
-
 if (!customElements.get('product-form')) {
   customElements.define('product-form', class ProductForm extends HTMLElement {
     constructor() {
@@ -34,17 +33,11 @@ if (!customElements.get('product-form')) {
         formData.append('sections_url', window.location.pathname);
         this.cart.setActiveElement(document.activeElement);
       }
-    
-      //Added to generate selling plan add to cart response
-      const sellingPlanId = window.getCurrentSellingPlanId();
-      formData.append("selling_plan", sellingPlanId);
-      
       config.body = formData;
 
       fetch(`${routes.cart_add_url}`, config)
         .then((response) => response.json())
         .then((response) => {
-          console.log("response",response)
           if (response.status) {
             publish(PUB_SUB_EVENTS.cartError, {source: 'product-form', productVariantId: formData.get('id'), errors: response.description, message: response.message});
             this.handleErrorMessage(response.description);

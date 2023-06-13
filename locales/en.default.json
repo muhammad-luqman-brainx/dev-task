@@ -154,6 +154,9 @@
         "sale_price": "Sale price",
         "unit_price": "Unit price"
       },
+      "selling_plans": {
+        "one_time_purchase": "One-time Purchase"
+      },
       "share": "Share this product",
       "sold_out": "Sold out",
       "unavailable": "Unavailable",

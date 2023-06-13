@@ -1,3 +1,4 @@
+
 if (!customElements.get('product-form')) {
   customElements.define('product-form', class ProductForm extends HTMLElement {
     constructor() {
@@ -33,6 +34,11 @@ if (!customElements.get('product-form')) {
         formData.append('sections_url', window.location.pathname);
         this.cart.setActiveElement(document.activeElement);
       }
+    
+      //Added to generate selling plan add to cart response
+      const sellingPlanId = window.getCurrentSellingPlanId();
+      formData.append("selling_plan", sellingPlanId);
+      
       config.body = formData;
 
       fetch(`${routes.cart_add_url}`, config)

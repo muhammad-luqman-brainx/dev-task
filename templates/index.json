@@ -1,166 +1,311 @@
 {
   "sections": {
-    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b": {
-      "type": "image-banner",
+    "39d9d1b8-22e4-475e-9dc8-ecc6bac4dfc6": {
+      "type": "testimonial-slider",
       "blocks": {
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0": {
-          "type": "heading",
+        "783f6e63-d298-43fb-876d-703bd6424508": {
+          "type": "column",
           "settings": {
-            "heading": "Generated test data",
-            "heading_size": "h1"
+            "blockquote": "“I drink this instead of coffee in the morning, and it takes down food cravings at night. Truly a delicious option anytime. Highly recommend.”",
+            "blockquoteImage": "shopify:\/\/shop_images\/Ray_Jackson.jpg",
+            "authorName": "Ray Jackson",
+            "authorDesignation": "Moringa Subscriber"
           }
         },
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1": {
-          "type": "text",
+        "30799128-6fac-4039-a916-a6ec2a39e02d": {
+          "type": "column",
           "settings": {
-            "text": "A theme and populated test store by Shopify to help you test commerce primitives.",
-            "text_style": "body"
+            "blockquote": "“I have been drinking a shot of it every morning for a year & the flavors are great! I've mixed it in cocktails and yogurt as well. And these days, who doesn't want an extra immunity boost!? Moringa Vinga has become a staple in my diet. Keep making great products!”",
+            "blockquoteImage": "shopify:\/\/shop_images\/Ray_Jackson.jpg",
+            "authorName": "Joycelyn May",
+            "authorDesignation": "Moringa Subscriber"
           }
         },
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2": {
-          "type": "buttons",
+        "bf055410-4005-48b0-881c-6df0ddf5e80d": {
+          "type": "column",
           "settings": {
-            "button_label_1": "Shop products",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "blockquote": "“I have been taking this wonderful sipping vinegar for the past 3 years. I chose the Ginger & Lemongrass to help with my digestive system and for the anti-inflammitory qualities. I have been amazed with the results. I hate going a day without my morning ritual of Moringa Vinga!”",
+            "blockquoteImage": "shopify:\/\/shop_images\/Ray_Jackson.jpg",
+            "authorName": "Lori Kaye",
+            "authorDesignation": "Moringa Subscriber"
           }
         }
       },
       "block_order": [
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0",
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1",
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2"
-      ],
-      "custom_css": [
-
+        "783f6e63-d298-43fb-876d-703bd6424508",
+        "30799128-6fac-4039-a916-a6ec2a39e02d",
+        "bf055410-4005-48b0-881c-6df0ddf5e80d"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "fixedHeading": "Functional Ingredients You Can Feel",
+        "fixedDescription": "Moringa oleifera is said to offer over 300 medicinal benefits. We combine adaptogens like moringa with powerful superfoods to bring you a convenient and easy way to take your health and wellness to the next level.",
+        "fixedButtonText": "View all Testimonials",
+        "FixedButtonlink": "#"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "e7cf5fa0-41d8-47ff-b622-4b75bf2c4246": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/svgexport-12.png",
+            "title": "100% Pure",
+            "text": "<p>Raw, living, and nutrient dense organic concentrates are slowly and carefully crafted.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/svgexport-13.png",
+            "title": "Never  Heated",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/svgexport-14.png",
+            "title": "No Additives or Powders",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "530c0234-dcf4-4d31-848e-44dedbdf70d8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/svgexport-12.png",
+            "title": "18 Month Shelf Life",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-0",
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-1",
+        "template--19334691848504__e7cf5fa0-41d8-47ff-b622-4b75bf2c4246-168551653119a7b7f5-2",
+        "530c0234-dcf4-4d31-848e-44dedbdf70d8"
+      ],
       "settings": {
-        "title": "<strong>Featured products<\/strong>",
+        "title": "",
         "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "automated-collection",
-        "products_to_show": 10,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "f1552b18-6017-4231-810d-74e61da22c37": {
-      "type": "image-with-text",
+    "5b7eab90-c835-490e-911a-d879259b6c81": {
+      "type": "multicolumn-v1",
       "blocks": {
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-0": {
-          "type": "heading",
+        "2e152549-5fb4-498c-aed1-55208433b5d5": {
+          "type": "column",
           "settings": {
-            "heading": "Stay hydrated",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/elderberry_home-copy.webp",
+            "title": "Elderberry & Holy Basil",
+            "text": "<p>Immunity | Calm | Breathe<\/p>",
+            "link_label": "",
+            "link": "#"
           }
         },
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-1": {
-          "type": "text",
+        "6fbd8fb6-63b0-4425-8cbe-d23cedc760a3": {
+          "type": "column",
           "settings": {
-            "text": "<p>Try our wax subscription so you can fly high, but never dry.<\/p>",
-            "text_style": "body"
+            "image": "shopify:\/\/shop_images\/ginger_home.webp",
+            "title": "Ginger & Lemongrass",
+            "text": "<p>Motion | Soothe | Digestion<\/p>",
+            "link_label": "",
+            "link": "#"
           }
         },
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-2": {
-          "type": "button",
+        "0097b567-160a-4273-9de2-c9a1aa4248f6": {
+          "type": "column",
           "settings": {
-            "button_label": "Get waxy now",
-            "button_link": "shopify:\/\/products\/selling-plans-ski-wax"
+            "image": "shopify:\/\/shop_images\/spearmint_home.webp",
+            "title": "Spearmint & Rosemary",
+            "text": "<p>Mind | Renew | Circulation<\/p>",
+            "link_label": "",
+            "link": "#"
           }
         }
       },
       "block_order": [
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-0",
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-1",
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-2"
+        "2e152549-5fb4-498c-aed1-55208433b5d5",
+        "6fbd8fb6-63b0-4425-8cbe-d23cedc760a3",
+        "0097b567-160a-4273-9de2-c9a1aa4248f6"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "70bdda25-666b-4c70-8f25-a2656b7b9740": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>The What<\/em>, Who, How, and Why",
+            "heading_size": "h2"
+          }
+        },
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Developed around the evidence that just one ounce a day can have a huge impact on multiple systems in the body. Each serving can be enjoyed daily with sparkling or still water for a functional tonic, mixed with olive oil for a super herb dressing, or used in any number of your own tasty creations.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-0",
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-1",
+        "template--19334691848504__70bdda25-666b-4c70-8f25-a2656b7b9740-1685833977ee0b99aa-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Moringa-Vinga_Infographic-HOW-IT-WORKS.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "accent-1",
-        "image_behavior": "none",
+        "color_scheme": "background-1",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "left",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "38cdf60f-e431-43b5-aac3-7e6215447d67": {
-      "type": "collection-list",
+    "9e7df806-3e57-44a9-9abd-89129224ea07": {
+      "type": "multicolumn-v2",
       "blocks": {
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0": {
-          "type": "featured_collection",
+        "56ee9ae3-32d2-4a0a-bdc1-30279eb6be66": {
+          "type": "column",
           "settings": {
-            "collection": "hydrogen"
+            "text": "<p>“Moringa Vinga are the best sipping vinegars ever! This super duper healthy tonic is loaded with all the “good-for you” stuff and so much more.” <\/p>",
+            "title": "Danielle",
+            "designation": "Customer",
+            "link_label": "",
+            "link": ""
           }
         },
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1": {
-          "type": "featured_collection",
+        "acce32bf-4bbc-4a59-8c0a-f131ce9a2121": {
+          "type": "column",
           "settings": {
-            "collection": "automated-collection"
+            "text": "<p>“A pre mixed concentrate with the awesome addition of moringa! A Super food that is soooo good for our gut and overall nutrition!” <\/p>",
+            "title": "<em>Sara M.<\/em>",
+            "designation": "<em>Nutrition Coach and Trainer<\/em>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "942819ed-a713-46ba-a0b1-b543efb514fe": {
+          "type": "column",
+          "settings": {
+            "text": "<p><em>“This stuff is addicting in the best of ways! I love that something so good for you tastes so amazing. It’s part of my daily routine. I am a big fan!”<\/em><\/p>",
+            "title": "<em>Juli<\/em>",
+            "designation": "<em>Customer<\/em>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b3b0ca66-4fd2-4d2e-83f3-d4d5c26c7297": {
+          "type": "column",
+          "settings": {
+            "text": "<p><em>“To have something that’s so good for you taste this amazing is such an added bonus! Can’t wait to get my next order!”<\/em><\/p>",
+            "title": "<em>Brenda<\/em>",
+            "designation": "<em>Customer<\/em>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0",
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1"
+        "56ee9ae3-32d2-4a0a-bdc1-30279eb6be66",
+        "acce32bf-4bbc-4a59-8c0a-f131ce9a2121",
+        "942819ed-a713-46ba-a0b1-b543efb514fe",
+        "b3b0ca66-4fd2-4d2e-83f3-d4d5c26c7297"
       ],
       "settings": {
-        "title": "<strong>Collections<\/strong>",
+        "title": "",
         "heading_size": "h1",
-        "image_ratio": "portrait",
+        "image_width": "full",
+        "image_ratio": "adapt",
         "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "show_view_all": false,
+        "color_bg": "#94d0b2",
+        "color_text": "#174f59",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e1594c78-ca6c-40da-8123-e44324600ce0": {
+      "type": "scroll-text",
+      "settings": {
+        "text": "plant-based \/ organic \/ raw",
+        "link": "",
+        "text_size": 22,
+        "line_height": 2,
+        "speed": 8.5,
+        "direction": "left",
+        "font": "heading",
+        "space_x": true,
+        "stencil_all_text": false,
+        "stencil_text": "",
+        "overlay_style_tint": false,
+        "color_scheme": "custom",
+        "color_bg": "#f4f4f4",
+        "color_text": "#184e5a"
+      }
     }
   },
   "order": [
-    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
-    "featured_collection",
-    "f1552b18-6017-4231-810d-74e61da22c37",
-    "38cdf60f-e431-43b5-aac3-7e6215447d67"
+    "39d9d1b8-22e4-475e-9dc8-ecc6bac4dfc6",
+    "e7cf5fa0-41d8-47ff-b622-4b75bf2c4246",
+    "5b7eab90-c835-490e-911a-d879259b6c81",
+    "70bdda25-666b-4c70-8f25-a2656b7b9740",
+    "9e7df806-3e57-44a9-9abd-89129224ea07",
+    "e1594c78-ca6c-40da-8123-e44324600ce0"
   ]
 }
